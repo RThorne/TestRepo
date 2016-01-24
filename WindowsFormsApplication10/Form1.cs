@@ -45,6 +45,7 @@ namespace WindowsFormsApplication10
             }
             int usr = Int32.Parse(input.Text);
 
+			// Naujas komentaras
             if (usr < 1 || usr >= max)
             {
                 MessageBox.Show("Blogas ivedimas");
@@ -83,6 +84,7 @@ namespace WindowsFormsApplication10
             }
             catch (Exception ex)
             {
+				// bla bla bla
                 high = 0;
             }
             highscore.Text = "Geriausias rez: " + high.ToString();
